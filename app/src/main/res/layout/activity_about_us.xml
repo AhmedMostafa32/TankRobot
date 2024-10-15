@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/arrow"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:background="@null"
+            android:src="@drawable/baseline_arrow_back_24"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/pp"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/about_us_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="About Us"
+        android:textAppearance="?attr/textAppearanceHeadline5"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/about_us_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="          This is a brief description about our \n    Project.We aim to provide the best services \n          and products. Our team is dedicated \n          and passionate about our mission"
+        android:textAppearance="?attr/textAppearanceBody1"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/about_us_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact us at: contact@Robotank.com"
+        android:layout_marginLeft="20dp"
+        android:textAppearance="?attr/textAppearanceBody2"/>
+    <TextView
+        android:id="@+id/copyright_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="© 2024 RoboTank"
+        android:textAppearance="?attr/textAppearanceBody2"
+        android:paddingTop="16dp"/>
+
+</LinearLayout>

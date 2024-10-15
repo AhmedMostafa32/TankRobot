@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/product"
+            android:icon="@drawable/product"
+            android:title="Products storage capacity">
+
+            <menu>
+                <group>
+                    <item
+                        android:id="@+id/milk"
+                        android:icon="@drawable/product"
+                        android:title="1" />
+
+                    <item
+                        android:id="@+id/drink"
+                        android:icon="@drawable/product"
+                        android:title="2"/>
+
+                    <item
+                        android:id="@+id/pro"
+                        android:icon="@drawable/product"
+                        android:title="3"/>
+
+                    <item
+                        android:id="@+id/proo0"
+                        android:icon="@drawable/product"
+                        android:title="4"/>
+                    <item
+                        android:id="@+id/proo1"
+                        android:icon="@drawable/product"
+                        android:title="5"/>
+
+                </group>
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/log_Out"
+            android:icon="@drawable/logout"
+            android:title="LogOut"/>
+        <item
+            android:id="@+id/about_us"
+            android:icon="@drawable/baseline_3p_24"
+            android:title="About us"/>
+        <item
+            android:id="@+id/rate_us"
+            android:icon="@drawable/baseline_accessibility_24"
+            android:title="Rate us"/>
+
+    </group>
+
+</menu>

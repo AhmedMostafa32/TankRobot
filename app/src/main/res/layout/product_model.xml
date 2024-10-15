@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    ">
+    <!-- res/layout/item_product.xml -->
+    <TextView
+        android:id="@+id/tvProductData"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Data"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="-"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>
